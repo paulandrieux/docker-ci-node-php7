@@ -11,6 +11,7 @@ wget -O- "https://packages.sury.org/php/apt.gpg" | apt-key add -
 apt-get update -q
 apt-get install -y \
     php7.3-fpm \
+    php7.3-pgsql \
     php7.3-bz2 \
     php7.3-curl \
     php7.3-gd \
