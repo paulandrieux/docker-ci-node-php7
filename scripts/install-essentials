@@ -12,6 +12,13 @@ apt-get install -y \
     git \
     zip \
     unzip \
-    libfontconfig
+    libfontconfig \
+    xvfb \
+    libgtk2.0-0 \
+    libnotify-dev \
+    libgconf-2-4 \
+    libnss3 \
+    libxss1 \
+    libasound2
 
 sh /scripts/cleanup
