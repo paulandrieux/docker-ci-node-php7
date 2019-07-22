@@ -19,6 +19,7 @@ RUN /scripts/install-aws-cli
 RUN /scripts/install-node-tools
 RUN /scripts/install-php73
 RUN /scripts/install-composer
+RUN /scripts/install-chrome
 
 # Show versions
 RUN node --version && \
